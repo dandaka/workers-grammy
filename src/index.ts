@@ -6,7 +6,8 @@ const welcomeText =
   "Rankie is a user-friendly app that uses the TrueSkill rating system to calculate players' skill levels and provide them with a simple and easy-to-use platform to enhance their gaming experience. It helps players track their personal progress and compare their ranking with other players, including those they don't know. The app is ideal for players who want to add a competitive edge to their gaming experience and enjoy more interesting and challenging games. Initially designed for the Lisbon Padel community, the app may expand to other games to provide a comprehensive platform for all types of players.";
 
 const inlineKeyboard = new InlineKeyboard()
-  .url("🎾 Create a game", "https://rankie.vercel.app/game/create")
+  .url("🎾 Create game", "https://rankie.vercel.app/game/create")
+  .url("😊 Create player", "https://rankie.vercel.app/user/create")
   .row()
   .url("📈 View rankings", "https://rankie.vercel.app/rankings")
   .row()
